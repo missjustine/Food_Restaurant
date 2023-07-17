@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    background-color: rgb(226, 43, 104);
+}
+
+.text-center{
+    text-align: center;
+}
+
+.secondary{
+    color: orange;
+}
+
+
+img-responsive{
+    width: 100%;
+}
+h2{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: gray;
+}
+
+
+button{
+    color: #fff;
+    padding: 2.5%;
+    background-image: linear-gradient(to right, orange,rgb(243,70,70));
+    border-radius: 25px;
+    cursor: pointer;
+    border: transparent;
+}
+button a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+/* Universal End*/
+/* <!-- -- 
+----
+------
+--------
+----------- --> */
+/* <!-- Nav Section Start --> */
+
+ .navBar{
+    position: sticky;
+    top: 0;
+    background-color: rgba(221, 205, 150, 0.5);
+    padding-bottom: 1%;
+ }
+
+.topNav{
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+    height: 10vh;
+
+  
+    
+}
+
+.navBar a{
+    text-decoration: none;
+    font-weight: 800;
+    
+    
+}
+
+.topNav .logo a{
+    color: #111;
+    font-weight: 900;
+    letter-spacing: 0.1em;
+}
+.topNav .logo a span{
+    color: orange;
+}
+
+.topNav .navItems{
+    margin-right: 1%;
+}
+
+.topNav .navItems a{
+    margin-right: 1em;
+    color: #111;
+}
+
+.topNav .navItems a:hover{
+    color: orange;
+}
